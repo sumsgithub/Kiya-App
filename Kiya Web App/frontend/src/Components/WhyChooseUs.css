@@ -1,0 +1,35 @@
+.why-choose-us {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #fff0f5; 
+}
+
+.why-choose-us h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.feature-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.feature-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #d63384; 
+}
+
+.feature-card p {
+  font-size: 0.95rem;
+  color: #555;
+}

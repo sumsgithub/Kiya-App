@@ -1,0 +1,98 @@
+.auth-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ffe4e6, #ffd6dc);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Sliding */
+.auth-wrapper {
+  width: 800px;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.auth-inner {
+  display: flex;
+  width: 200%;
+  transition: transform 0.6s ease-in-out;
+}
+
+.auth-inner.login {
+  transform: translateX(0%);
+}
+
+.auth-inner.signup {
+  transform: translateX(-50%);
+}
+
+/* Form */
+.signup-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+
+.signup-form {
+  background: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* User Inputs */
+.signup-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.signup-form input:focus {
+  border-color: #ff4081;
+  outline: none;
+}
+
+/* SignUp Button */
+.signup-form button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(90deg, #ff4081, #ff80ab);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Google Login Button */
+.google-btn-container {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.switch-text {
+  margin-top: 15px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.switch-text span {
+  color: #ff4081;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Sign Up Message */
+.msg {
+  text-align: center;
+  color: #d6336c;
+  margin-bottom: 10px;
+}
